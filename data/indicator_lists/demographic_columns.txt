@@ -1,0 +1,15 @@
+age
+Sex
+SIMD_labels
+Ethnicity
+BMI
+SIMD1
+SIMD2
+SIMD3
+SIMD4
+SIMD5
+white_scot
+white_OB
+asian
+white_oth
+oth_min_eth

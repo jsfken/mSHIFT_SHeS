@@ -1,0 +1,651 @@
+{
+    "median_GHG": {
+        "Overall": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Greenhouse gas emissions",
+            "y_lim": [
+                2.5,
+                4.5
+            ],
+            "threshold": null
+        },
+        "Men": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Greenhouse gas emissions, Men",
+            "y_lim": [
+                2.5,
+                4.5
+            ],
+            "threshold": null
+        },
+        "Women": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Greenhouse gas emissions, Women",
+            "y_lim": [
+                2.5,
+                4.5
+            ],
+            "threshold": null
+        },
+        "16-24": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Greenhouse gas emissions, 16-24",
+            "y_lim": [
+                2,
+                5
+            ],
+            "threshold": null
+        },
+        "25-34": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Greenhouse gas emissions, 25-34",
+            "y_lim": [
+                2,
+                5
+            ],
+            "threshold": null
+        },
+        "35-44": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Greenhouse gas emissions, 35-44",
+            "y_lim": [
+                2,
+                5
+            ],
+            "threshold": null
+        },
+        "45-54": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Greenhouse gas emissions, 45-54",
+            "y_lim": [
+                2,
+                5
+            ],
+            "threshold": null
+        },
+        "55-64": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Greenhouse gas emissions, 55-64",
+            "y_lim": [
+                2,
+                5
+            ],
+            "threshold": null
+        },
+        "65-74": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Greenhouse gas emissions, 65-74",
+            "y_lim": [
+                2,
+                5
+            ],
+            "threshold": null
+        },
+        "75+": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Greenhouse gas emissions, 75+",
+            "y_lim": [
+                2,
+                5
+            ],
+            "threshold": null
+        },
+        "RRPM >= 31g/day": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Average dietary GHG, RRPM >= 31g/day",
+            "y_lim": [
+                3,
+                5.5
+            ],
+            "threshold": null
+        },
+        "RRPM >= 70g/day": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Average dietary GHG, RRPM >= 70g/day",
+            "y_lim": [
+                3,
+                8
+            ],
+            "threshold": null
+        },
+        "SIMD 1 (most deprived)": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Vitamin B12 intake, SIMD 1 (most deprived)",
+            "y_lim": [
+                1,
+                6
+            ],
+            "threshold": null
+        },
+        "SIMD 2": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Vitamin B12 intake, SIMD 2",
+            "y_lim": [
+                1,
+                6
+            ],
+            "threshold": null
+        },
+        "SIMD 3": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Vitamin B12 intake, SIMD 3",
+            "y_lim": [
+                1,
+                6
+            ],
+            "threshold": null
+        },
+        "SIMD 4": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Vitamin B12 intake, SIMD 4",
+            "y_lim": [
+                1,
+                6
+            ],
+            "threshold": null
+        },
+        "SIMD 5 (least deprived)": {
+            "y_axis_label": "GHG, kgCO$_{2}$e/day",
+            "title": "Vitamin B12 intake, SIMD 5 (least deprived)",
+            "y_lim": [
+                1,
+                6
+            ],
+            "threshold": null
+        }
+    },
+    "median_Land": {
+        "Overall": {
+            "y_axis_label": "Land, m$^2$/day",
+            "title": "Per capita land use, overall population",
+            "y_lim": [
+                3.5,
+                6
+            ],
+            "threshold": null
+        }
+    },
+    "median_WaterUse": {
+        "Overall": {
+            "y_axis_label": "Water use, litres/day",
+            "title": "Per capita water use use, overall population",
+            "y_lim": [
+                300,
+                475
+            ],
+            "threshold": null
+        }
+    },
+    "median_Eut": {
+        "Overall": {
+            "y_axis_label": "Eutrophication, gPO$_4$e/day",
+            "title": "Per capita eutrophication, overall population",
+            "y_lim": [
+                10,
+                17
+            ],
+            "threshold": null
+        }
+    },
+    "Proteing": {
+        "Overall": {
+            "y_axis_label": "Protein, g/day",
+            "title": "Protein intake, overall population",
+            "y_lim": [
+                50,
+                72
+            ],
+            "threshold": 55.5
+        },
+        "SIMD 1 (most deprived)": {
+            "y_axis_label": "Protein, g/day",
+            "title": "Protein intake, SIMD1 (most deprived)",
+            "y_lim": [
+                50,
+                72
+            ],
+            "threshold": 55.5
+        },
+        "Men": {
+            "y_axis_label": "Protein, g/day",
+            "title": "Protein, men",
+            "y_lim": [
+                50,
+                80
+            ],
+            "threshold": 55.5
+        },
+        "Women": {
+            "y_axis_label": "Protein, g/day",
+            "title": "Protein, women",
+            "y_lim": [
+                40,
+                70
+            ],
+            "threshold": 45.5
+        }
+    },
+    "Energykcal": {
+        "Overall": {
+            "y_axis_label": "Energy, kcal",
+            "title": "Energy intake, overall population",
+            "y_lim": [
+                1400,
+                1800
+            ],
+            "threshold": 2000
+        },
+        "SIMD 1 (most deprived)": {
+            "y_axis_label": "Protein, g",
+            "title": "Protein intake, SIMD1 (most deprived)",
+            "y_lim": [
+                1400,
+                1800
+            ],
+            "threshold": 2000
+        }
+    },
+    "Ironmg": {
+        "Overall": {
+            "y_axis_label": "Iron, mg",
+            "title": "Iron intake, overall population",
+            "y_lim": [
+                8.5,
+                10.5
+            ],
+            "threshold": 8.7
+        }
+    },
+    "Saturatedfattyacidsg": {
+        "Overall": {
+            "y_axis_label": "Saturatef fatty acids",
+            "title": "Saturated fat intake, overall population",
+            "y_lim": [
+                19,
+                25
+            ],
+            "threshold": null
+        }
+    },
+    "Zincmg": {
+        "Overall": {
+            "y_axis_label": "Zinc, mg",
+            "title": "",
+            "y_lim": [
+                6,
+                10
+            ],
+            "threshold": 9.5
+        },
+        "Men": {
+            "y_axis_label": "Zinc, mg",
+            "title": "",
+            "y_lim": [
+                6,
+                10
+            ],
+            "threshold": 9.5
+        },
+        "Women": {
+            "y_axis_label": "Zinc, mg",
+            "title": "",
+            "y_lim": [
+                5.5,
+                8
+            ],
+            "threshold": 7.0
+        }
+    },
+    "Calciummg": {
+        "Overall": {
+            "y_axis_label": "Calcium, mg/day",
+            "title": "Calcium intake, overall population",
+            "y_lim": [
+                675,
+                850
+            ],
+            "threshold": 700
+        }
+    },
+    "VitaminB12": {
+        "Overall": {
+            "y_axis_label": "Vitamin B12, $\\mu$g",
+            "title": "Vitamin B12 intake, overall population",
+            "y_lim": [
+                1,
+                5.5
+            ],
+            "threshold": 1.5
+        },
+        "SIMD 1 (most deprived)": {
+            "y_axis_label": "Vitamin B12, $\\mu$g",
+            "title": "Vitamin B12 intake, SIMD1 (most deprived)",
+            "y_lim": [
+                1,
+                7
+            ],
+            "threshold": 1.5
+        },
+        "SIMD 5 (least deprived)": {
+            "y_axis_label": "Vitamin B12, $\\mu$g",
+            "title": "Vitamin B12 intake, SIMD5 (least deprived)",
+            "y_lim": [
+                1,
+                7
+            ],
+            "threshold": 1.5
+        }
+    },
+    "Selenium": {
+        "Overall": {
+            "y_axis_label": "Selenium, $\\mu$g",
+            "title": "Selenium intake, overall population",
+            "y_lim": [
+                34,
+                48
+            ],
+            "threshold": 75
+        }
+    },
+    "Iodine": {
+        "Overall": {
+            "y_axis_label": "Iodine, $\\mu$g/day",
+            "title": "Iodine intake, overall population",
+            "y_lim": [
+                120,
+                160
+            ],
+            "threshold": 140
+        },
+        "Men": {
+            "y_axis_label": "Iodine, $\\mu$g/day",
+            "title": "Iodine intake, men",
+            "y_lim": [
+                110,
+                150
+            ],
+            "threshold": 140
+        },
+        "Women": {
+            "y_axis_label": "Iodine, $\\mu$g/day",
+            "title": "Iodine intake, men",
+            "y_lim": [
+                110,
+                150
+            ],
+            "threshold": 140
+        },
+        "16-24": {
+            "y_axis_label": "Iodine, $\\mu$g/day",
+            "title": "Iodine intake, 16-24",
+            "y_lim": [
+                110,
+                150
+            ],
+            "threshold": 140
+        },
+        "25-34": {
+            "y_axis_label": "Iodine, $\\mu$g/day",
+            "title": "Iodine intake, 25-34",
+            "y_lim": [
+                110,
+                150
+            ],
+            "threshold": 140
+        },
+        "35-44": {
+            "y_axis_label": "Iodine, $\\mu$g/day",
+            "title": "Iodine intake, 35-44",
+            "y_lim": [
+                110,
+                150
+            ],
+            "threshold": 140
+        },
+        "45-54": {
+            "y_axis_label": "Iodine, $\\mu$g/day",
+            "title": "Iodine intake, 45-54",
+            "y_lim": [
+                110,
+                150
+            ],
+            "threshold": 140
+        },
+        "55-64": {
+            "y_axis_label": "Iodine, $\\mu$g/day",
+            "title": "Iodine intake, 55-64",
+            "y_lim": [
+                110,
+                150
+            ],
+            "threshold": 140
+        },
+        "65-74": {
+            "y_axis_label": "Iodine, $\\mu$g/day",
+            "title": "Iodine intake, 65-74",
+            "y_lim": [
+                110,
+                150
+            ],
+            "threshold": 140
+        },
+        "75+": {
+            "y_axis_label": "Iodine, $\\mu$g/day",
+            "title": "Iodine intake, 75+",
+            "y_lim": [
+                110,
+                150
+            ],
+            "threshold": 140
+        },
+        "SIMD 1 (most deprived)": {
+            "y_axis_label": "Iodine, $\\mu$g/day",
+            "title": "Iodine intake, SIMD 1 (most deprived)",
+            "y_lim": [
+                100,
+                160
+            ],
+            "threshold": 140
+        },
+        "SIMD 2": {
+            "y_axis_label": "Iodine, $\\mu$g/day",
+            "title": "Iodine intake, SIMD 2",
+            "y_lim": [
+                100,
+                160
+            ],
+            "threshold": 140
+        },
+        "SIMD 3": {
+            "y_axis_label": "Iodine, $\\mu$g/day",
+            "title": "Iodine intake, SIMD 3",
+            "y_lim": [
+                100,
+                160
+            ],
+            "threshold": 140
+        },
+        "SIMD 4": {
+            "y_axis_label": "Iodine, $\\mu$g/day",
+            "title": "Iodine intake, SIMD 4",
+            "y_lim": [
+                100,
+                160
+            ],
+            "threshold": 140
+        },
+        "SIMD 5 (least deprived)": {
+            "y_axis_label": "Iodine, $\\mu$g/day",
+            "title": "Iodine intake, SIMD 5 (least deprived)",
+            "y_lim": [
+                125,
+                180
+            ],
+            "threshold": 140
+        }
+    },
+    "median_price_sim": {
+        "Overall": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Total cost per day, overall population",
+            "y_lim": [
+                8,
+                10
+            ],
+            "threshold": null
+        },
+        "Men": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Total cost per day, Men",
+            "y_lim": [
+                6,
+                9
+            ],
+            "threshold": null
+        },
+        "Women": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Total cost per day, Women",
+            "y_lim": [
+                6,
+                9
+            ],
+            "threshold": null
+        },
+        "16-24": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Total cost per day, 16-24",
+            "y_lim": [
+                6,
+                9
+            ],
+            "threshold": null
+        },
+        "25-34": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Total cost per day, 25-34",
+            "y_lim": [
+                6,
+                9
+            ],
+            "threshold": null
+        },
+        "35-44": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Total cost per day, 35-44",
+            "y_lim": [
+                6,
+                9
+            ],
+            "threshold": null
+        },
+        "45-54": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Total cost per day, 45-54",
+            "y_lim": [
+                6,
+                9
+            ],
+            "threshold": null
+        },
+        "55-64": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Total cost per day, 55-64",
+            "y_lim": [
+                6,
+                9
+            ],
+            "threshold": null
+        },
+        "65-74": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Total cost per day, 65-74",
+            "y_lim": [
+                6,
+                9
+            ],
+            "threshold": null
+        },
+        "75+": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Total cost per day, 75+",
+            "y_lim": [
+                6,
+                9
+            ],
+            "threshold": null
+        },
+        "SIMD 1 (most deprived)": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Total cost per day, SIMD 1 (most deprived)",
+            "y_lim": [
+                5,
+                9
+            ],
+            "threshold": null
+        },
+        "SIMD 2": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Total cost per day, SIMD 2",
+            "y_lim": [
+                5,
+                9
+            ],
+            "threshold": null
+        },
+        "SIMD 3": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Total cost per day, SIMD 3",
+            "y_lim": [
+                5,
+                9
+            ],
+            "threshold": null
+        },
+        "SIMD 4": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Total cost per day, SIMD 4",
+            "y_lim": [
+                5,
+                9
+            ],
+            "threshold": null
+        },
+        "SIMD 5 (least deprived)": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Total cost per day, SIMD 5 (least deprived)",
+            "y_lim": [
+                5,
+                9
+            ],
+            "threshold": null
+        },
+        "RRPM >= 31g/day": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Average total cost per day 2022, RRPM >= 31g/day",
+            "y_lim": [
+                6.5,
+                9.5
+            ],
+            "threshold": null
+        },
+        "RRPM >= 70g/day": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Average total cost per day 2022, RRPM >= 70g/day",
+            "y_lim": [
+                6.5,
+                9.5
+            ],
+            "threshold": null
+        },
+        "RRPM >= 60g/day": {
+            "y_axis_label": "Cost, \u00a3/day",
+            "title": "Average total cost per day 2022, RRPM >= 60g/day",
+            "y_lim": [
+                6.5,
+                9.5
+            ],
+            "threshold": null
+        }
+    }
+}

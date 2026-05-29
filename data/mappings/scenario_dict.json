@@ -1,0 +1,177 @@
+{
+    "1": {
+        "meat_sub": null,
+        "max_intake": 70,
+        "dairy_sub": false
+    },
+    "2": {
+        "meat_sub": null,
+        "max_intake": 60,
+        "dairy_sub": false
+    },
+    "3": {
+        "meat_sub": null,
+        "max_intake": 31,
+        "dairy_sub": false
+    },
+    "4": {
+        "meat_sub": "pulse average",
+        "max_intake": 70,
+        "dairy_sub": true
+    },
+    "5": {
+        "meat_sub": "pulse average",
+        "max_intake": 60,
+        "dairy_sub": true
+    },
+    "6": {
+        "meat_sub": "pulse average",
+        "max_intake": 31,
+        "dairy_sub": true
+    },
+    "7": {
+        "meat_sub": "veg average",
+        "max_intake": 70,
+        "dairy_sub": true
+    },
+    "8": {
+        "meat_sub": "veg average",
+        "max_intake": 60,
+        "dairy_sub": true
+    },
+    "9": {
+        "meat_sub": "veg average",
+        "max_intake": 31,
+        "dairy_sub": true
+    },
+    "10": {
+        "meat_sub": "egg average",
+        "max_intake": 70,
+        "dairy_sub": true
+    },
+    "11": {
+        "meat_sub": "egg average",
+        "max_intake": 60,
+        "dairy_sub": true
+    },
+    "12": {
+        "meat_sub": "egg average",
+        "max_intake": 31,
+        "dairy_sub": true
+    },
+    "13": {
+        "meat_sub": "OF average",
+        "max_intake": 70,
+        "dairy_sub": true
+    },
+    "14": {
+        "meat_sub": "OF average",
+        "max_intake": 60,
+        "dairy_sub": true
+    },
+    "15": {
+        "meat_sub": "OF average",
+        "max_intake": 31,
+        "dairy_sub": true
+    },
+    "16": {
+        "meat_sub": "PB alt average",
+        "max_intake": 70,
+        "dairy_sub": true
+    },
+    "17": {
+        "meat_sub": "PB alt average",
+        "max_intake": 60,
+        "dairy_sub": true
+    },
+    "18": {
+        "meat_sub": "PB alt average",
+        "max_intake": 31,
+        "dairy_sub": true
+    },
+    "19": {
+        "meat_sub": "poultry average",
+        "max_intake": 70,
+        "dairy_sub": true
+    },
+    "20": {
+        "meat_sub": "poultry average",
+        "max_intake": 60,
+        "dairy_sub": true
+    },
+    "21": {
+        "meat_sub": "poultry average",
+        "max_intake": 31,
+        "dairy_sub": true
+    },
+    "22": {
+        "meat_sub": null,
+        "meat_percent_reduction": 20,
+        "dairy_sub": false
+    },
+    "23": {
+        "meat_sub": null,
+        "meat_percent_reduction": 35,
+        "dairy_sub": false
+    },
+    "24": {
+        "meat_sub": "pulse average",
+        "meat_percent_reduction": 20,
+        "dairy_sub": true
+    },
+    "25": {
+        "meat_sub": "pulse average",
+        "meat_percent_reduction": 35,
+        "dairy_sub": true
+    },
+    "26": {
+        "meat_sub": "veg average",
+        "meat_percent_reduction": 20,
+        "dairy_sub": true
+    },
+    "27": {
+        "meat_sub": "veg average",
+        "meat_percent_reduction": 35,
+        "dairy_sub": true
+    },
+    "28": {
+        "meat_sub": "egg average",
+        "meat_percent_reduction": 20,
+        "dairy_sub": true
+    },
+    "29": {
+        "meat_sub": "egg average",
+        "meat_percent_reduction": 35,
+        "dairy_sub": true
+    },
+    "30": {
+        "meat_sub": "OF average",
+        "meat_percent_reduction": 20,
+        "dairy_sub": true
+    },
+    "31": {
+        "meat_sub": "OF average",
+        "meat_percent_reduction": 35,
+        "dairy_sub": true
+    },
+    "32": {
+        "meat_sub": "PB alt average",
+        "meat_percent_reduction": 20,
+        "dairy_sub": true
+    },
+    "33": {
+        "meat_sub": "PB alt average",
+        "meat_percent_reduction": 35,
+        "dairy_sub": true
+    },
+     "34": {
+        "meat_sub": null,
+        "meat_percent_reduction": 0,
+        "dairy_sub": false
+    },
+    "35": {
+        "meat_sub": null,
+        "meat_percent_reduction": 0,
+        "dairy_sub": true
+    }
+}

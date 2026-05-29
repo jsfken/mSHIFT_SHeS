@@ -1,0 +1,17 @@
+{
+  "sd_mean_Acidification": "mean_Acidification",
+  "sd_mean_Eut": "mean_Eut",
+  "sd_mean_GHG": "mean_GHG",
+  "sd_mean_Land": "mean_Land",
+  "sd_mean_WatScar": "mean_WatScar",
+  "sd_mean_WaterUse": "mean_WaterUse",
+  "sd_mean_Biodiversity": "mean_Biodiversity",
+  "sd_price_sim": "median_price_sim",
+  "sd_median_Acidification": "median_Acidification",
+  "sd_median_Eut": "median_Eut",
+  "sd_median_GHG": "median_GHG",
+  "sd_median_Land": "median_Land",
+  "sd_median_WatScar": "median_WatScar",
+  "sd_median_WaterUse": "median_WaterUse",
+  "sd_median_Biodiversity": "median_Biodiversity"
+}

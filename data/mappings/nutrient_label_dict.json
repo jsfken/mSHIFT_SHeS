@@ -1,0 +1,368 @@
+{
+    "Energykcal": {
+        "title": "Energy",
+        "units": "kcal"
+    },
+    "EnergykJ": {
+        "title": "Energy",
+        "units": "kJ"
+    },
+    "Proteing": {
+        "title": "Protein",
+        "units": "g"
+    },
+    "Calciummg": {
+        "title": "Calcium",
+        "units": "mg"
+    },
+    "Ironmg": {
+        "title": "Iron",
+        "units": "mg"
+    },
+    "Iodine": {
+        "title": "Iodine",
+        "units": "$\\mu$g"
+    },
+    "Selenium": {
+        "title": "Selenium",
+        "units": "$\\mu$g"
+    },
+    "Zincmg": {
+        "title": "Zinc",
+        "units": "mg"
+    },
+    "VitaminB12": {
+        "title": "Vitamin B12",
+        "units": "$\\mu$g"
+    },
+    "Fatg": {
+        "title": "Fat",
+        "units": "g"
+    },
+    "Carbohydrateg": {
+        "title": "Carbohydrate",
+        "units": "g"
+    },
+    "FreeSugarsg": {
+        "title": "Free Sugars",
+        "units": "g"
+    },
+    "Sodiummg": {
+        "title": "Sodium",
+        "units": "mg"
+    },
+    "Haemironmg": {
+        "title": "Haem Iron",
+        "units": "mg"
+    },
+    "Nonhaemironmg": {
+        "title": "Non-haem Iron",
+        "units": "mg"
+    },
+    "Thiaminmg": {
+        "title": "Thiamin",
+        "units": "mg"
+    },
+    "Saturatedfattyacidsg": {
+        "title": "Saturated fatty acids",
+        "units": "g"
+    },
+    "Transfattyacidsg": {
+        "title": "Trans fatty acids",
+        "units": "g"
+    },
+    "CisMonounsaturatedfattyacidsg": {
+        "title": "Cis monounsaturated fatty acids",
+        "units": "g"
+    },
+    "Cisn6fattyacidsg": {
+        "title": "n-6 fatty acids",
+        "units": "g"
+    },
+    "Cisn3fattyacidsg": {
+        "title": "n-3 fatty acids",
+        "units": "g"
+    },
+    "VitaminD": {
+        "title": "Vitamin D",
+        "units": "$\\mu$g"
+    },
+    "VitaminA": {
+        "title": "Vitamin A",
+        "units": "$\\mu$g"
+    },
+    "Riboflavinmg": {
+        "title": "Riboflavin",
+        "units": "mg"
+    },
+    "Potassiummg": {
+        "title": "Potassium",
+        "units": "mg"
+    },
+    "VitaminB6mg": {
+        "title": "Vitamin B6",
+        "units": "mg"
+    },
+    "Cholesterolmg": {
+        "title": "Cholesterol",
+        "units": "mg"
+    },
+    "Magnesiummg": {
+        "title": "Magnesium",
+        "units": "mg"
+    },
+    "Phosphorusmg": {
+        "title": "Phosphorus",
+        "units": "mg"
+    },
+    "Coppermg": {
+        "title": "Copper",
+        "units": "mg"
+    },
+    "Chloridemg": {
+        "title": "Choloride",
+        "units": "mg"
+    },
+    "Retinol": {
+        "title": "Vitamin A",
+        "units": "$\\mu$g",
+        "threshold": {
+            "Men<65": 700,
+            "Women<65": 600,
+            "Women 65-74": 600,
+            "Men 65-74": 700,
+            "Women 75+": 600,
+            "Men 75+": 700
+        }
+    },
+    "TotCarotene": {
+        "title": "Total carotene",
+        "units": "$\\mu$g"
+    },
+    "Alpcarotene": {
+        "title": "alpha-carotene",
+        "units": "$\\mu$g"
+    },
+    "Betacarotene": {
+        "title": "beta-carotene",
+        "units": "$\\mu$g"
+    },
+    "BCryptoxanthin": {
+        "title": "beta-cryptoxanthin",
+        "units": "$\\mu$g"
+    },
+    "VitaminEmg": {
+        "title": "Vitamin E",
+        "units": "mg"
+    },
+    "Niacinequivalentmg": {
+        "title": "Niacin equivilent",
+        "units": "mg",
+        "threshold": {
+            "Men<65": 16.5,
+            "Women<65": 13.2,
+            "Women 65-74": 12.6,
+            "Men 65-74": 15.5,
+            "Women 75+": 12.1,
+            "Men 75+": 15.1
+        }
+    },
+    "Folate": {
+        "title": "Folate",
+        "units": "$\\mu$g",
+        "threshold": {
+            "Men<65": 200,
+            "Women<65": 200,
+            "Women 65-74": 200,
+            "Men 65-74": 200,
+            "Women 75+": 200,
+            "Men 75+": 200
+        }
+    },
+    "Pantothenicacidmg": {
+        "title": "Pantothenic acid",
+        "units": "mg"
+    },
+    "Biotin": {
+        "title": "Biotin",
+        "units": "$\\mu$g"
+    },
+    "VitaminCmg": {
+        "title": "Vitamin C",
+        "units": "mg"
+    },
+    "Alcoholg": {
+        "title": "Alcohol",
+        "units": "g"
+    },
+    "Waterg": {
+        "title": "Water",
+        "units": "g"
+    },
+    "Totalsugarsg": {
+        "title": "Total sugars",
+        "units": "g"
+    },
+    "Othersugarsg": {
+        "title": "Other sugars",
+        "units": "g"
+    },
+    "Starchg": {
+        "title": "Starch",
+        "units": "g"
+    },
+    "Glucoseg": {
+        "title": "Glucose",
+        "units": "g"
+    },
+    "Fructoseg": {
+        "title": "Fructose",
+        "units": "g"
+    },
+    "Sucroseg": {
+        "title": "Sucrose",
+        "units": "g"
+    },
+    "Maltoseg": {
+        "title": "Maltose",
+        "units": "g"
+    },
+    "Lactoseg": {
+        "title": "Lactose",
+        "units": "g"
+    },
+    "AOACFibreg": {
+        "title": "AOAC Fibre",
+        "units": "g"
+    },
+    "Totalnitrogeng": {
+        "title": "Total nitrogen",
+        "units": "g"
+    },
+    "Manganesemg": {
+        "title": "Manganese",
+        "units": "mg"
+    },
+    "median_price_sim": {
+        "title": "Price median sim",
+        "units": "p"
+    },
+    
+    "sd_price_sim": {
+        "title": "Price se sim",
+        "units": "p"
+    },
+    
+    "mean_Acidification": {
+        "title": "Acidification mean",
+        "units": ""
+    },
+    "mean_Biodiversity": {
+        "title": "Biodiversity mean",
+        "units": ""
+    },
+    "mean_Eut": {
+        "title": "Eut mean",
+        "units": "gPO$_3$e"
+    },
+    "mean_GHG": {
+        "title": "GHG mean",
+        "units": "kgCO$_2$e"
+    },
+    "mean_Land": {
+        "title": "Land use mean",
+        "units": "m$^2$"
+    },
+    "mean_WatScar": {
+        "title": "Water scarcity mean",
+        "units": ""
+    },
+    "mean_WaterUse": {
+        "title": "Water use mean",
+        "units": "litres"
+    },
+    "median_Acidification": {
+        "title": "Acidification median",
+        "units": ""
+    },
+    "median_Biodiversity": {
+        "title": "Biodiversity median",
+        "units": ""
+    },
+    "median_Eut": {
+        "title": "Eut median",
+        "units": "gPO$_3$e"
+    },
+    "median_GHG": {
+        "title": "GHG median",
+        "units": "kgCO$_2$e"
+    },
+    "median_Land": {
+        "title": "Land use median",
+        "units": "m$^2$"
+    },
+    "median_WaterUse": {
+        "title": "Water use median",
+        "units": "litres"
+    },
+    "median_WatScar": {
+        "title": "Water scarcity median",
+        "units": "litres"
+    },
+    "sd_mean_Eut": {
+        "title": "Eutrophication mean se",
+        "units": "gPO$_3$e"
+    },
+    "sd_mean_GHG": {
+        "title": "GHG mean se",
+        "units": "kgCO$_2$e"
+    },
+    "sd_mean_Land": {
+        "title": "Land use mean se",
+        "units": "m$^2$"
+    },
+    "sd_mean_WaterUse": {
+        "title": "Water use mean se",
+        "units": "litres"
+    },
+    "sd_mean_WatScar": {
+        "title": "Water scarcity mean se",
+        "units": ""
+    },
+     "sd_mean_Acidification": {
+        "title": "Acidification mean se",
+        "units": ""
+    },
+    "sd_mean_Biodiversity": {
+        "title": "Biodiversity mean se",
+        "units": ""
+    },
+    "sd_median_Eut": {
+        "title": "Eutrophication median se",
+        "units": "gPO$_3$e"
+    },
+    "sd_median_GHG": {
+        "title": "GHG median se",
+        "units": "kgCO$_2$e"
+    },
+    "sd_median_Land": {
+        "title": "Land use median se",
+        "units": "m$^2$"
+    },
+    "sd_median_WaterUse": {
+        "title": "Water use median se",
+        "units": "litres"
+    },
+    "sd_median_WatScar": {
+        "title": "Water scarcity median se",
+        "units": ""
+    },
+     "sd_median_Acidification": {
+        "title": "Acidification median se",
+        "units": ""
+    },
+    "sd_median_Biodiversity": {
+        "title": "Biodiversity median se",
+        "units": ""
+    }
+}

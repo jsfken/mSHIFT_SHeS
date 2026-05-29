@@ -1,0 +1,11 @@
+Beefg
+Lambg
+Porkg
+Burgersg
+OtherRedMeatg
+ProcessedRedMeatg
+Sausagesg
+Offalg
+Poultryg
+ProcessedPoultryg
+GameBirdsg

@@ -1,0 +1,12 @@
+Milk_Skimmed
+Milk_SemiSkimmed
+Milk_Whole
+Cheese_Skimmed
+Cheese_SemiSkimmed
+Cheese_Whole
+Yogurt_Skimmed
+Yogurt_SemiSkimmed
+Yogurt_Whole
+Cream_SemiSkimmed
+Cream_Whole
+Butter
