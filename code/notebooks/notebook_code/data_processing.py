@@ -27,42 +27,10 @@ def price_error(row):
 
   return price
 
-
-# def add_env_data_diet_data(row: pd.Series, df_impacts: pd.DataFrame, matched_items_data: pd.DataFrame, mean_env_columns: list, error_columns: list,conversion_factors: dict):
-
-#   food_code = row['FoodNumber']
-#   food_desc = row['FoodDescription']
-
-#   # list of ndb items for a given food code
-#   ndb_items = list(matched_items_data[matched_items_data['Food composition record ID']==food_code]['Local description'])
-
-#   # average over the NDB items for a given SHeS item
-#   impacts = df_impacts[df_impacts.index.isin(ndb_items)]
-
-#   mean_impacts = impacts[mean_env_columns].mean(skipna=True)
-#   error_impacts = ((impacts[error_columns]**2).sum(skipna=True))**0.5/len(ndb_items)
-
-#   ## impact is per 100g. Some items need to be converted to account for gram weight of water
-
-#   if food_desc in conversion_factors.keys():
-#     row[mean_env_columns] = (mean_impacts/100)*row['TotalGrams']*conversion_factors[food_desc]
-#     row[error_columns] = (error_impacts/100)*row['TotalGrams']*conversion_factors[food_desc]
-
-#     # Include the water use from the remaining gram weight of the converted item and convert to litres
-#     row['median_WaterUse'] += (1-conversion_factors[food_desc])*row['TotalGrams']*0.001 
-#     row['mean_WaterUse'] += (1- conversion_factors[food_desc])*row['TotalGrams']*0.001
-
-#   else:
-#     row[mean_env_columns] = (mean_impacts/100)*row['TotalGrams']
-#     row[error_columns] = (error_impacts/100)*row['TotalGrams']
-
-#   return row
-
-
-def add_env_data(row: pd.Series, 
-                      NDB_data: pd.DataFrame, 
-                      df_impacts: pd.DataFrame, 
-                      mean_env_columns: list, 
+def add_env_data(row: pd.Series,
+                      NDB_data: pd.DataFrame,
+                      df_impacts: pd.DataFrame,
+                      mean_env_columns: list,
                       error_columns: list,
                       conversion_dict: dict,
                       ):
@@ -70,34 +38,38 @@ def add_env_data(row: pd.Series,
   food_code = row['FoodNumber']
   food_desc = row['FoodDescription']
 
-  # Try assigning the impacts to be those with the same item desription  
+  # Try assigning the impacts to be those with the same item desription
   try:
-      impacts = df_impacts.loc[food_desc, :]
-      if len(impacts) > 0:
-        mean_impacts = impacts[mean_env_columns].mean(skipna=True)
-        error_impacts = ((impacts[error_columns]**2).sum(skipna=True))**0.5/len(impacts)
+      impacts_result = df_impacts.loc[food_desc, :]
+      if isinstance(impacts_result, pd.Series):
+          # If it's a Series, it means a unique match for the food description.
+          # We should directly use its values for the relevant columns.
+          mean_impacts = impacts_result[mean_env_columns]
+          error_impacts = impacts_result[error_columns]
+      elif isinstance(impacts_result, pd.DataFrame):
+          # If it's a DataFrame, it means multiple matches, take mean across rows.
+          mean_impacts = impacts_result[mean_env_columns].mean(skipna=True)
+          error_impacts = ((impacts_result[error_columns]**2).sum(skipna=True))**0.5/len(impacts_result)
       else:
-        mean_impacts = impacts[mean_env_columns]
-        error_impacts = impacts[error_columns] 
-  
-  # Otherwise assign the impacts to those of the items that share a food code wth the item description
-  except:
-       ndb_items = list(NDB_data[NDB_data['Food composition record ID']==food_code]['Local description'])
-       impacts = df_impacts[df_impacts.index.isin(ndb_items)]
-       mean_impacts = impacts[mean_env_columns].mean(skipna=True)
-       error_impacts = ((impacts[error_columns]**2).sum(skipna=True))**0.5/len(ndb_items)
+          # This case should ideally not happen if df_impacts is well-formed
+          raise TypeError(f"Unexpected type for impacts_result: {type(impacts_result)}")
 
-  #ndb_desc = NDB_data[NDB_data['Food composition record ID']==food_code]['Local description'].iloc[0]
+  # Otherwise assign the impacts to those of the items that share a food code wth the item description
+  except KeyError:
+       ndb_items = list(NDB_data[NDB_data['Food composition record ID']==food_code]['Local description'])
+       impacts_from_ndb = df_impacts[df_impacts.index.isin(ndb_items)]
+       mean_impacts = impacts_from_ndb[mean_env_columns].mean(skipna=True)
+       error_impacts = ((impacts_from_ndb[error_columns]**2).sum(skipna=True))**0.5/len(ndb_items)
 
   # if the food item is an item that does not account for diluted water seperately
   if food_desc in conversion_dict.keys():
     conversion_factor = conversion_dict[food_desc]
-   
+
     row[mean_env_columns] = (mean_impacts/100)*row['TotalGrams']*conversion_factor
     row[error_columns] = (error_impacts/100)*row['TotalGrams']*conversion_factor
 
     # Include the water use from the remaining gram weight of the converted item and convert to litres
-    row['median_WaterUse'] += (1-conversion_factor)*row['TotalGrams']*0.001 
+    row['median_WaterUse'] += (1-conversion_factor)*row['TotalGrams']*0.001
     row['mean_WaterUse'] += (1- conversion_factor)*row['TotalGrams']*0.001
   else:
     # add the impacts of each item weighted by consumption
